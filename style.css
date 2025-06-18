@@ -67,10 +67,11 @@ padding: 20px;
 text-align: center;
 font-family: monospace;
 }.pbtm button{
-    padding: 15px 23px;
+    padding: 13px 32px;
     font-size: 20px;
-
+background-color: rgb(116, 75, 124);
     border-radius: 20px;
+    color: white;
 }
 .bubble{
     display: flex;

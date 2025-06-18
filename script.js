@@ -1,7 +1,7 @@
 // ''2+2 => single code me hum sirf dynmic value hi jod skte h
 // `${2+2}` => back tick me hm direct hi alue ko jod skte 
 
-var timer = 5;
+var timer = 60;
 var score = 0;
 var hitrn = 0;
 
@@ -34,7 +34,7 @@ function runTimer(){
     }
     else{
       clearInterval(timeint)
-      document.querySelector(".pbtm").innerHTML = `<h1>Game Over <br>Your score is 60 </br> <br><button>Restart</button></br></h1>`;
+      document.querySelector(".pbtm").innerHTML = `<h1>Game Over <br>Your score is 120 </br> <br><button>Restart</button></br></h1>`;
     }
   },1000);
 }
